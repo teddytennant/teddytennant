@@ -1,5 +1,7 @@
 # Teddy Tennant
 
+16 y/o at [NCSSM](https://www.ncssm.edu/). I work on agentic harness engineering, reasoning in latent space, recursive self-improvement, and synthetic data.
+
 ## Current Projects
 
 **[wizard](https://github.com/teddytennant/wizard)** -- Self-extending autonomous coding agent in one Rust binary. Any provider (OpenAI-compatible, Anthropic, xAI) or fully local via llama.cpp. Live `/evolve` self-modification, MCP, messaging gateway, built-in bench. Ran its own AHE evolution loop under Grok 4.5 to drive the harness to a 100% pass rate.
