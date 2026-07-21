@@ -18,4 +18,4 @@
 
 ## Stack
 
-Python, Rust, PyTorch, JAX, SGLang, Nix, some TypeScript, some C++, some Lua. NixOS daily driver.
+Python, Rust, PyTorch, JAX, SGLang, Nix, some TypeScript, some C++, some Lua, some Go. NixOS daily driver.
