@@ -16,7 +16,7 @@
 
 ## Upstream
 
-58 merged pull requests in repos I do not own, including [jax](https://github.com/jax-ml/jax), [tinygrad](https://github.com/tinygrad/tinygrad), [Gymnasium](https://github.com/Farama-Foundation/Gymnasium), [ratatui](https://github.com/ratatui/ratatui), [zellij](https://github.com/zellij-org/zellij), [rclone](https://github.com/rclone/rclone), [petgraph](https://github.com/petgraph/petgraph), [rand](https://github.com/rust-random/rand), [maturin](https://github.com/PyO3/maturin), and [insta](https://github.com/mitsuhiko/insta).
+<!--pr-count-->59<!--/pr-count--> merged pull requests in repos I do not own, including [jax](https://github.com/jax-ml/jax), [tinygrad](https://github.com/tinygrad/tinygrad), [Gymnasium](https://github.com/Farama-Foundation/Gymnasium), [ratatui](https://github.com/ratatui/ratatui), [zellij](https://github.com/zellij-org/zellij), [rclone](https://github.com/rclone/rclone), [petgraph](https://github.com/petgraph/petgraph), [rand](https://github.com/rust-random/rand), [maturin](https://github.com/PyO3/maturin), and [insta](https://github.com/mitsuhiko/insta).
 
 ## Stack
 
