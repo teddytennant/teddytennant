@@ -1,0 +1,38 @@
+name: Update upstream section
+
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Refresh the upstream section and commit
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "Teddy Tennant"
+          git config user.email "teddytennant@icloud.com"
+          for attempt in 1 2 3; do
+            ./scripts/update-upstream.sh
+            if git diff --quiet README.md; then
+              echo "no change"
+              exit 0
+            fi
+            git commit -am "Update upstream pull requests"
+            if git push; then
+              exit 0
+            fi
+            echo "push rejected, someone else pushed first; starting over from origin"
+            git fetch origin
+            git reset --hard origin/${GITHUB_REF_NAME}
+          done
+          echo "gave up after 3 attempts" >&2
+          exit 1
