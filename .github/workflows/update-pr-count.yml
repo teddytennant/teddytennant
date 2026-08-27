@@ -14,18 +14,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Refresh count
+      - name: Refresh count and commit
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: ./scripts/update-pr-count.sh
-
-      - name: Commit if changed
         run: |
-          if git diff --quiet README.md; then
-            echo "no change"
-            exit 0
-          fi
           git config user.name "Teddy Tennant"
           git config user.email "teddytennant@icloud.com"
-          git commit -am "Update merged PR count"
-          git push
+          for attempt in 1 2 3; do
+            ./scripts/update-pr-count.sh
+            if git diff --quiet README.md; then
+              echo "no change"
+              exit 0
+            fi
+            git commit -am "Update merged PR count"
+            if git push; then
+              exit 0
+            fi
+            echo "push rejected, someone else pushed first; starting over from origin"
+            git fetch origin
+            git reset --hard origin/${GITHUB_REF_NAME}
+          done
+          echo "gave up after 3 attempts" >&2
+          exit 1
