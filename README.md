@@ -16,7 +16,7 @@
 
 ## Upstream
 
-<!--pr-count-->62<!--/pr-count--> merged pull requests in repos I do not own, including:
+<!--pr-count-->63<!--/pr-count--> merged pull requests in repos I do not own, including:
 
 [jax] · [tinygrad] · [Gymnasium] · [ratatui] · [zellij] · [rclone] · [petgraph] · [rand] · [maturin] · [insta]
 
