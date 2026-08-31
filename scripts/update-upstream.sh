@@ -12,6 +12,13 @@ if ! [[ "$count" =~ ^[0-9]+$ ]] || [ "$count" -eq 0 ]; then
   exit 1
 fi
 
+# The count is anchored on the sentence, not an HTML comment: a line starting
+# with <!-- is an HTML block, and markdown links on it never render.
+if ! grep -qE '^[0-9]+ \[merged pull requests\]' README.md; then
+  echo "count anchor missing from README.md" >&2
+  exit 1
+fi
+
 # Search cannot sort by merge date, so pull a recent window and sort it here.
 recent=$(gh api -X GET search/issues \
   -f q="$query" -f sort=updated -f order=desc -f per_page=50 \
@@ -34,7 +41,7 @@ while IFS=$'\t' read -r date repo number url title; do
 done <<< "$recent"
 
 COUNT="$count" BLOCK="$block" perl -0pi -e '
-  s{(<!--pr-count-->)\d+(<!--/pr-count-->)}{$1$ENV{COUNT}$2};
+  s{^\d+(?= \[merged pull requests\])}{$ENV{COUNT}}m;
   s{(<!--recent-prs-->\n).*?(<!--/recent-prs-->)}{$1$ENV{BLOCK}$2}s;
 ' README.md
 

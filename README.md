@@ -4,7 +4,7 @@
 
 ## Upstream
 
-<!--pr-count-->75<!--/pr-count--> [merged pull requests][prs] in repos I do not own, including:
+75 [merged pull requests][prs] in repos I do not own, including:
 
 [jax] · [tinygrad] · [Gymnasium] · [ratatui] · [zellij] · [rclone] · [petgraph] · [rand] · [maturin] · [insta]
 
