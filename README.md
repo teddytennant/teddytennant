@@ -16,9 +16,19 @@
 
 ## Upstream
 
-<!--pr-count-->75<!--/pr-count--> merged pull requests in repos I do not own, including:
+<!--pr-count-->75<!--/pr-count--> [merged pull requests][prs] in repos I do not own, including:
 
 [jax] · [tinygrad] · [Gymnasium] · [ratatui] · [zellij] · [rclone] · [petgraph] · [rand] · [maturin] · [insta]
+
+Most recent:
+
+<!--recent-prs-->
+- 2026-08-31 · [diffy #87](https://github.com/bmwill/diffy/pull/87) — fix(patch): accept CRLF line endings in the ---/+++ headers
+- 2026-08-31 · [pytest-rerunfailures #356](https://github.com/pytest-dev/pytest-rerunfailures/pull/356) — Restore higher-scoped teardown when a teardown error rules out a re-run
+- 2026-08-30 · [tinygrad #17855](https://github.com/tinygrad/tinygrad/pull/17855) — fix strided setitem being a no-op on a realized tensor
+- 2026-08-30 · [tinygrad #17853](https://github.com/tinygrad/tinygrad/pull/17853) — fix logcumsumexp on fully masked prefixes
+- 2026-08-30 · [tinygrad #17852](https://github.com/tinygrad/tinygrad/pull/17852) — fix elu/celu/selu gradient being nan on large inputs
+<!--/recent-prs-->
 
 ## Stack
 
@@ -32,6 +42,7 @@ Rust, Python, PyTorch, JAX, SGLang, Nix, TypeScript, C++, Lua, Go. NixOS daily d
 [reverie]: https://github.com/teddytennant/reverie
 [candor-bench]: https://github.com/teddytennant/candor-bench
 [spore]: https://github.com/teddytennant/spore
+[prs]: https://github.com/search?q=is%3Apr+author%3Ateddytennant+is%3Amerged+-user%3Ateddytennant&type=pullrequests
 [jax]: https://github.com/jax-ml/jax
 [tinygrad]: https://github.com/tinygrad/tinygrad
 [Gymnasium]: https://github.com/Farama-Foundation/Gymnasium
