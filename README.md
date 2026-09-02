@@ -4,18 +4,18 @@
 
 ## Upstream
 
-76 [merged pull requests][prs] in repos I do not own, including:
+84 [merged pull requests][prs] in repos I do not own, including:
 
 [jax] · [tinygrad] · [Gymnasium] · [ratatui] · [zellij] · [rclone] · [petgraph] · [rand] · [maturin] · [insta]
 
 Most recent:
 
 <!--recent-prs-->
-- 2026-09-01 · [pytest-rerunfailures #357](https://github.com/pytest-dev/pytest-rerunfailures/pull/357) — Keep higher-scoped fixtures alive across re-runs of failed subtests
-- 2026-08-31 · [diffy #87](https://github.com/bmwill/diffy/pull/87) — fix(patch): accept CRLF line endings in the ---/+++ headers
-- 2026-08-31 · [pytest-rerunfailures #356](https://github.com/pytest-dev/pytest-rerunfailures/pull/356) — Restore higher-scoped teardown when a teardown error rules out a re-run
-- 2026-08-30 · [tinygrad #17855](https://github.com/tinygrad/tinygrad/pull/17855) — fix strided setitem being a no-op on a realized tensor
-- 2026-08-30 · [tinygrad #17853](https://github.com/tinygrad/tinygrad/pull/17853) — fix logcumsumexp on fully masked prefixes
+- 2026-09-02 · [openclaw #135341](https://github.com/openclaw/openclaw/pull/135341) — fix(link-understanding): parse complete markdown links
+- 2026-09-02 · [openclaw #135807](https://github.com/openclaw/openclaw/pull/135807) — fix(infra): drop empty PATHEXT entries from Windows extension lookup
+- 2026-09-02 · [openclaw #135351](https://github.com/openclaw/openclaw/pull/135351) — fix(routing): keep empty-id peers out of the peerless route cache slot
+- 2026-09-02 · [openclaw #135748](https://github.com/openclaw/openclaw/pull/135748) — fix(boards): replace widget records on put
+- 2026-09-02 · [openclaw #135749](https://github.com/openclaw/openclaw/pull/135749) — fix(plugins): match scoped ClawHub specs in uninstall warnings
 <!--/recent-prs-->
 
 ## Stack
