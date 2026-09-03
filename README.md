@@ -4,18 +4,18 @@
 
 ## Upstream
 
-84 [merged pull requests][prs] in repos I do not own, including:
+87 [merged pull requests][prs] in repos I do not own, including:
 
 [jax] · [tinygrad] · [Gymnasium] · [ratatui] · [zellij] · [rclone] · [petgraph] · [rand] · [maturin] · [insta]
 
 Most recent:
 
 <!--recent-prs-->
+- 2026-09-03 · [openclaw #136375](https://github.com/openclaw/openclaw/pull/136375) — fix(skills): detect support path overlap beyond sorted neighbors
+- 2026-09-03 · [openclaw #136582](https://github.com/openclaw/openclaw/pull/136582) — fix(gateway): name folder recents from Windows-style paths
+- 2026-09-03 · [openclaw #136586](https://github.com/openclaw/openclaw/pull/136586) — fix(models): match fallback entries through provider aliases
 - 2026-09-02 · [openclaw #135341](https://github.com/openclaw/openclaw/pull/135341) — fix(link-understanding): parse complete markdown links
 - 2026-09-02 · [openclaw #135807](https://github.com/openclaw/openclaw/pull/135807) — fix(infra): drop empty PATHEXT entries from Windows extension lookup
-- 2026-09-02 · [openclaw #135351](https://github.com/openclaw/openclaw/pull/135351) — fix(routing): keep empty-id peers out of the peerless route cache slot
-- 2026-09-02 · [openclaw #135748](https://github.com/openclaw/openclaw/pull/135748) — fix(boards): replace widget records on put
-- 2026-09-02 · [openclaw #135749](https://github.com/openclaw/openclaw/pull/135749) — fix(plugins): match scoped ClawHub specs in uninstall warnings
 <!--/recent-prs-->
 
 ## Stack
