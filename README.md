@@ -4,18 +4,18 @@
 
 ## Upstream
 
-87 [merged pull requests][prs] in repos I do not own, including:
+92 [merged pull requests][prs] in repos I do not own, including:
 
 [jax] · [tinygrad] · [Gymnasium] · [ratatui] · [zellij] · [rclone] · [petgraph] · [rand] · [maturin] · [insta]
 
 Most recent:
 
 <!--recent-prs-->
-- 2026-09-03 · [openclaw #136375](https://github.com/openclaw/openclaw/pull/136375) — fix(skills): detect support path overlap beyond sorted neighbors
-- 2026-09-03 · [openclaw #136582](https://github.com/openclaw/openclaw/pull/136582) — fix(gateway): name folder recents from Windows-style paths
-- 2026-09-03 · [openclaw #136586](https://github.com/openclaw/openclaw/pull/136586) — fix(models): match fallback entries through provider aliases
-- 2026-09-02 · [openclaw #135341](https://github.com/openclaw/openclaw/pull/135341) — fix(link-understanding): parse complete markdown links
-- 2026-09-02 · [openclaw #135807](https://github.com/openclaw/openclaw/pull/135807) — fix(infra): drop empty PATHEXT entries from Windows extension lookup
+- 2026-09-04 · [openclaw #137870](https://github.com/openclaw/openclaw/pull/137870) — fix(telegram): keep prototype-named HTML tags unstyled
+- 2026-09-04 · [openclaw #137677](https://github.com/openclaw/openclaw/pull/137677) — fix(discord): reject inherited presence activity types
+- 2026-09-04 · [openclaw #137782](https://github.com/openclaw/openclaw/pull/137782) — fix(doctor): treat store SecretRef memory provider keys as configured
+- 2026-09-04 · [tinygrad #17942](https://github.com/tinygrad/tinygrad/pull/17942) — fix simplify\_valid rewriting an int bitwise and
+- 2026-09-03 · [bytes #839](https://github.com/tokio-rs/bytes/pull/839) — fix: try\_get\_int/try\_get\_int\_le do not sign-extend n-byte integers
 <!--/recent-prs-->
 
 ## Stack
