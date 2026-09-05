@@ -4,18 +4,18 @@
 
 ## Upstream
 
-92 [merged pull requests][prs] in repos I do not own, including:
+111 [merged pull requests][prs] in repos I do not own, including:
 
 [jax] · [tinygrad] · [Gymnasium] · [ratatui] · [zellij] · [rclone] · [petgraph] · [rand] · [maturin] · [insta]
 
 Most recent:
 
 <!--recent-prs-->
-- 2026-09-04 · [openclaw #137870](https://github.com/openclaw/openclaw/pull/137870) — fix(telegram): keep prototype-named HTML tags unstyled
-- 2026-09-04 · [openclaw #137677](https://github.com/openclaw/openclaw/pull/137677) — fix(discord): reject inherited presence activity types
-- 2026-09-04 · [openclaw #137782](https://github.com/openclaw/openclaw/pull/137782) — fix(doctor): treat store SecretRef memory provider keys as configured
-- 2026-09-04 · [tinygrad #17942](https://github.com/tinygrad/tinygrad/pull/17942) — fix simplify\_valid rewriting an int bitwise and
-- 2026-09-03 · [bytes #839](https://github.com/tokio-rs/bytes/pull/839) — fix: try\_get\_int/try\_get\_int\_le do not sign-extend n-byte integers
+- 2026-09-05 · [openclaw #137681](https://github.com/openclaw/openclaw/pull/137681) — fix(msteams): prototype reaction types hit Graph as Function
+- 2026-09-05 · [PettingZoo #1448](https://github.com/Farama-Foundation/PettingZoo/pull/1448) — Add ClipRewardV1 wrappers, ported from SuperSuit clip\_reward\_v0
+- 2026-09-05 · [PettingZoo #1447](https://github.com/Farama-Foundation/PettingZoo/pull/1447) — Remove unused macos-test workflow
+- 2026-09-04 · [PettingZoo #1414](https://github.com/Farama-Foundation/PettingZoo/pull/1414) — docs: clarify when env.agents becomes empty after termination (#1244)
+- 2026-09-04 · [PettingZoo #1431](https://github.com/Farama-Foundation/PettingZoo/pull/1431) — Add StickyActionV1 wrappers, ported from SuperSuit sticky\_actions\_v0
 <!--/recent-prs-->
 
 ## Stack
