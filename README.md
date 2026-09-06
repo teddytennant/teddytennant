@@ -4,18 +4,18 @@
 
 ## Upstream
 
-111 [merged pull requests][prs] in repos I do not own, including:
+114 [merged pull requests][prs] in repos I do not own, including:
 
 [jax] · [tinygrad] · [Gymnasium] · [ratatui] · [zellij] · [rclone] · [petgraph] · [rand] · [maturin] · [insta]
 
 Most recent:
 
 <!--recent-prs-->
+- 2026-09-06 · [openclaw #136374](https://github.com/openclaw/openclaw/pull/136374) — fix(slack): keep prototype-named emoji shortcodes intact
+- 2026-09-05 · [PettingZoo #1446](https://github.com/Farama-Foundation/PettingZoo/pull/1446) — pursuit: render agents as squares and update the docs gif
+- 2026-09-05 · [crossbeam #1289](https://github.com/crossbeam-rs/crossbeam/pull/1289) — channel: Document that send\_timeout sends an available message even if the timeout has elapsed
 - 2026-09-05 · [openclaw #137681](https://github.com/openclaw/openclaw/pull/137681) — fix(msteams): prototype reaction types hit Graph as Function
 - 2026-09-05 · [PettingZoo #1448](https://github.com/Farama-Foundation/PettingZoo/pull/1448) — Add ClipRewardV1 wrappers, ported from SuperSuit clip\_reward\_v0
-- 2026-09-05 · [PettingZoo #1447](https://github.com/Farama-Foundation/PettingZoo/pull/1447) — Remove unused macos-test workflow
-- 2026-09-04 · [PettingZoo #1414](https://github.com/Farama-Foundation/PettingZoo/pull/1414) — docs: clarify when env.agents becomes empty after termination (#1244)
-- 2026-09-04 · [PettingZoo #1431](https://github.com/Farama-Foundation/PettingZoo/pull/1431) — Add StickyActionV1 wrappers, ported from SuperSuit sticky\_actions\_v0
 <!--/recent-prs-->
 
 ## Stack
