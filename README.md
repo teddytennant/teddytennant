@@ -4,18 +4,18 @@
 
 ## Upstream
 
-114 [merged pull requests][prs] in repos I do not own, including:
+118 [merged pull requests][prs] in repos I do not own, including:
 
 [jax] · [tinygrad] · [Gymnasium] · [ratatui] · [zellij] · [rclone] · [petgraph] · [rand] · [maturin] · [insta]
 
 Most recent:
 
 <!--recent-prs-->
+- 2026-09-07 · [Gymnasium #1688](https://github.com/Farama-Foundation/Gymnasium/pull/1688) — Keep Discrete support when DtypeObservation changes dtype
+- 2026-09-06 · [MO-Gymnasium #155](https://github.com/Farama-Foundation/MO-Gymnasium/pull/155) — Include the goal-step time penalty in MountainCar reward\_space
+- 2026-09-06 · [petgraph #1037](https://github.com/petgraph/petgraph/pull/1037) — ci: Fix clippy
+- 2026-09-06 · [openclaw #138391](https://github.com/openclaw/openclaw/pull/138391) — fix(memory): restore indexing after embedding row-cap errors
 - 2026-09-06 · [openclaw #136374](https://github.com/openclaw/openclaw/pull/136374) — fix(slack): keep prototype-named emoji shortcodes intact
-- 2026-09-05 · [PettingZoo #1446](https://github.com/Farama-Foundation/PettingZoo/pull/1446) — pursuit: render agents as squares and update the docs gif
-- 2026-09-05 · [crossbeam #1289](https://github.com/crossbeam-rs/crossbeam/pull/1289) — channel: Document that send\_timeout sends an available message even if the timeout has elapsed
-- 2026-09-05 · [openclaw #137681](https://github.com/openclaw/openclaw/pull/137681) — fix(msteams): prototype reaction types hit Graph as Function
-- 2026-09-05 · [PettingZoo #1448](https://github.com/Farama-Foundation/PettingZoo/pull/1448) — Add ClipRewardV1 wrappers, ported from SuperSuit clip\_reward\_v0
 <!--/recent-prs-->
 
 ## Stack
