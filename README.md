@@ -4,18 +4,18 @@
 
 ## Upstream
 
-118 [merged pull requests][prs] in repos I do not own, including:
+119 [merged pull requests][prs] in repos I do not own, including:
 
 [jax] · [tinygrad] · [Gymnasium] · [ratatui] · [zellij] · [rclone] · [petgraph] · [rand] · [maturin] · [insta]
 
 Most recent:
 
 <!--recent-prs-->
+- 2026-09-07 · [openclaw #139604](https://github.com/openclaw/openclaw/pull/139604) — fix(agents): strip wrapped runtime-context prefaces from delivered text
 - 2026-09-07 · [Gymnasium #1688](https://github.com/Farama-Foundation/Gymnasium/pull/1688) — Keep Discrete support when DtypeObservation changes dtype
 - 2026-09-06 · [MO-Gymnasium #155](https://github.com/Farama-Foundation/MO-Gymnasium/pull/155) — Include the goal-step time penalty in MountainCar reward\_space
 - 2026-09-06 · [petgraph #1037](https://github.com/petgraph/petgraph/pull/1037) — ci: Fix clippy
 - 2026-09-06 · [openclaw #138391](https://github.com/openclaw/openclaw/pull/138391) — fix(memory): restore indexing after embedding row-cap errors
-- 2026-09-06 · [openclaw #136374](https://github.com/openclaw/openclaw/pull/136374) — fix(slack): keep prototype-named emoji shortcodes intact
 <!--/recent-prs-->
 
 ## Stack
