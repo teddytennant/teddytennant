@@ -4,18 +4,18 @@
 
 ## Upstream
 
-125 [merged pull requests][prs] in repos I do not own, including:
+129 [merged pull requests][prs] in repos I do not own, including:
 
 [jax] · [tinygrad] · [Gymnasium] · [ratatui] · [zellij] · [rclone] · [petgraph] · [rand] · [maturin] · [insta]
 
 Most recent:
 
 <!--recent-prs-->
+- 2026-09-09 · [goose #11888](https://github.com/aaif-goose/goose/pull/11888) — fix(google): pair functionResponse names with the preceding request
+- 2026-09-09 · [textwrap #623](https://github.com/mgeisler/textwrap/pull/623) — Avoid arithmetic overflow in wrap\_columns
+- 2026-09-09 · [jax #40320](https://github.com/jax-ml/jax/pull/40320) — Raise ValueError from jnp.median on an empty reduction axis
+- 2026-09-09 · [MO-Gymnasium #156](https://github.com/Farama-Foundation/MO-Gymnasium/pull/156) — Fix misspelled incremental\_frame\_skip on Minecart
 - 2026-09-09 · [openclaw #135359](https://github.com/openclaw/openclaw/pull/135359) — fix(matrix): preserve text for unknown message types
-- 2026-09-08 · [openclaw #137678](https://github.com/openclaw/openclaw/pull/137678) — fix(voice-call): keep unknown voice mappings string-valued
-- 2026-09-08 · [openclaw #137679](https://github.com/openclaw/openclaw/pull/137679) — fix(voice-call): prototype CallStatus is treated as terminal
-- 2026-09-08 · [openclaw #137869](https://github.com/openclaw/openclaw/pull/137869) — fix(daemon): skip systemd content repairs for masked units
-- 2026-09-08 · [openclaw #137877](https://github.com/openclaw/openclaw/pull/137877) — fix(auto-reply): show usage for invalid approval decisions
 <!--/recent-prs-->
 
 ## Stack
