@@ -4,18 +4,18 @@
 
 ## Upstream
 
-134 [merged pull requests][prs] in repos I do not own, including:
+139 [merged pull requests][prs] in repos I do not own, including:
 
 [jax] · [tinygrad] · [Gymnasium] · [ratatui] · [zellij] · [rclone] · [petgraph] · [rand] · [maturin] · [insta]
 
 Most recent:
 
 <!--recent-prs-->
-- 2026-09-10 · [Gymnasium #1691](https://github.com/Farama-Foundation/Gymnasium/pull/1691) — Flatten n-d Box observations in DiscretizeObservation
-- 2026-09-10 · [NexAU #27](https://github.com/nex-agi/NexAU/pull/27) — fix(session): honor descending order\_by in JSONL engine
-- 2026-09-10 · [NexAU #23](https://github.com/nex-agi/NexAU/pull/23) — docs: install over https instead of ssh
-- 2026-09-10 · [NexAU #22](https://github.com/nex-agi/NexAU/pull/22) — fix(compaction): keep hard truncation fallback in chronological order
-- 2026-09-10 · [hyprview #22](https://github.com/yz778/hyprview/pull/22) — Port to Hyprland 0.56
+- 2026-09-11 · [pytest-rerunfailures #364](https://github.com/pytest-dev/pytest-rerunfailures/pull/364) — Match only\_rerun against wrapped exception causes
+- 2026-09-10 · [Minigrid #505](https://github.com/Farama-Foundation/Minigrid/pull/505) — Fix PositionBonus wrapper ignoring the \`scale\` parameter (issue #473)
+- 2026-09-10 · [pulldown-cmark #1143](https://github.com/pulldown-cmark/pulldown-cmark/pull/1143) — Fix panic on definition-list offsets inside a combining character
+- 2026-09-10 · [sqlx #4367](https://github.com/transact-rs/sqlx/pull/4367) — Error on .sql migration files that don't match the expected filename format
+- 2026-09-10 · [goose #11976](https://github.com/aaif-goose/goose/pull/11976) — fix: stop mapping Astra Off to reasoning.effort none
 <!--/recent-prs-->
 
 ## Stack
