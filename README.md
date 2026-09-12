@@ -4,18 +4,18 @@
 
 ## Upstream
 
-139 [merged pull requests][prs] in repos I do not own, including:
+142 [merged pull requests][prs] in repos I do not own, including:
 
 [jax] · [tinygrad] · [Gymnasium] · [ratatui] · [zellij] · [rclone] · [petgraph] · [rand] · [maturin] · [insta]
 
 Most recent:
 
 <!--recent-prs-->
+- 2026-09-12 · [tinygrad #18150](https://github.com/tinygrad/tinygrad/pull/18150) — fix var of int input
+- 2026-09-11 · [bytemuck #353](https://github.com/Lokathor/bytemuck/pull/353) — docs: clarify TransparentWrapper Rule 1 wording
+- 2026-09-11 · [bytemuck #354](https://github.com/Lokathor/bytemuck/pull/354) — Forward struct where-clauses on TransparentWrapper derive
 - 2026-09-11 · [pytest-rerunfailures #364](https://github.com/pytest-dev/pytest-rerunfailures/pull/364) — Match only\_rerun against wrapped exception causes
 - 2026-09-10 · [Minigrid #505](https://github.com/Farama-Foundation/Minigrid/pull/505) — Fix PositionBonus wrapper ignoring the \`scale\` parameter (issue #473)
-- 2026-09-10 · [pulldown-cmark #1143](https://github.com/pulldown-cmark/pulldown-cmark/pull/1143) — Fix panic on definition-list offsets inside a combining character
-- 2026-09-10 · [sqlx #4367](https://github.com/transact-rs/sqlx/pull/4367) — Error on .sql migration files that don't match the expected filename format
-- 2026-09-10 · [goose #11976](https://github.com/aaif-goose/goose/pull/11976) — fix: stop mapping Astra Off to reasoning.effort none
 <!--/recent-prs-->
 
 ## Stack
