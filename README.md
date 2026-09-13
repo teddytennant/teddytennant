@@ -4,18 +4,18 @@
 
 ## Upstream
 
-142 [merged pull requests][prs] in repos I do not own, including:
+144 [merged pull requests][prs] in repos I do not own, including:
 
 [jax] · [tinygrad] · [Gymnasium] · [ratatui] · [zellij] · [rclone] · [petgraph] · [rand] · [maturin] · [insta]
 
 Most recent:
 
 <!--recent-prs-->
+- 2026-09-12 · [rust-sdk #1156](https://github.com/modelcontextprotocol/rust-sdk/pull/1156) — fix(model): deprecate ServerInfo and ClientInfo aliases
+- 2026-09-12 · [Shimmy #162](https://github.com/Farama-Foundation/Shimmy/pull/162) — Correctly handle non-scalar rewards for dm\_env
 - 2026-09-12 · [tinygrad #18150](https://github.com/tinygrad/tinygrad/pull/18150) — fix var of int input
 - 2026-09-11 · [bytemuck #353](https://github.com/Lokathor/bytemuck/pull/353) — docs: clarify TransparentWrapper Rule 1 wording
 - 2026-09-11 · [bytemuck #354](https://github.com/Lokathor/bytemuck/pull/354) — Forward struct where-clauses on TransparentWrapper derive
-- 2026-09-11 · [pytest-rerunfailures #364](https://github.com/pytest-dev/pytest-rerunfailures/pull/364) — Match only\_rerun against wrapped exception causes
-- 2026-09-10 · [Minigrid #505](https://github.com/Farama-Foundation/Minigrid/pull/505) — Fix PositionBonus wrapper ignoring the \`scale\` parameter (issue #473)
 <!--/recent-prs-->
 
 ## Stack
