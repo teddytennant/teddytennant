@@ -4,18 +4,18 @@
 
 ## Upstream
 
-147 [merged pull requests][prs] in repos I do not own, including:
+148 [merged pull requests][prs] in repos I do not own, including:
 
 [jax] · [tinygrad] · [Gymnasium] · [ratatui] · [zellij] · [rclone] · [petgraph] · [rand] · [maturin] · [insta]
 
 Most recent:
 
 <!--recent-prs-->
+- 2026-09-15 · [cubecl #1413](https://github.com/tracel-ai/cubecl/pull/1413) — fix(runtime): saturate FlushingPolicyState counters to prevent add-overflow panic (#1359)
 - 2026-09-15 · [Gymnasium #1703](https://github.com/Farama-Foundation/Gymnasium/pull/1703) — Flatten n-d Box actions in DiscretizeAction
 - 2026-09-14 · [crush #3552](https://github.com/charmbracelet/crush/pull/3552) — fix(home): require path boundary when shortening or expanding ~
 - 2026-09-13 · [petgraph #1034](https://github.com/petgraph/petgraph/pull/1034) — fix: Size max flow scratch vectors by index bound
 - 2026-09-12 · [rust-sdk #1156](https://github.com/modelcontextprotocol/rust-sdk/pull/1156) — fix(model): deprecate ServerInfo and ClientInfo aliases
-- 2026-09-12 · [Shimmy #162](https://github.com/Farama-Foundation/Shimmy/pull/162) — Correctly handle non-scalar rewards for dm\_env
 <!--/recent-prs-->
 
 ## Stack
