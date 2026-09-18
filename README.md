@@ -4,18 +4,18 @@
 
 ## Upstream
 
-148 [merged pull requests][prs] in repos I do not own, including:
+152 [merged pull requests][prs] in repos I do not own, including:
 
 [jax] · [tinygrad] · [Gymnasium] · [ratatui] · [zellij] · [rclone] · [petgraph] · [rand] · [maturin] · [insta]
 
 Most recent:
 
 <!--recent-prs-->
+- 2026-09-18 · [jax #40338](https://github.com/jax-ml/jax/pull/40338) — Fix jnp.partition, jnp.argpartition and jnp.top\_k on signed integer minimums
+- 2026-09-17 · [PettingZoo #1462](https://github.com/Farama-Foundation/PettingZoo/pull/1462) — Honor action masks in average\_total\_reward
+- 2026-09-17 · [PettingZoo #1464](https://github.com/Farama-Foundation/PettingZoo/pull/1464) — Stop treating AEC step() as returning an observation
+- 2026-09-17 · [PettingZoo #1463](https://github.com/Farama-Foundation/PettingZoo/pull/1463) — Compare action spaces across agents in api\_test
 - 2026-09-15 · [cubecl #1413](https://github.com/tracel-ai/cubecl/pull/1413) — fix(runtime): saturate FlushingPolicyState counters to prevent add-overflow panic (#1359)
-- 2026-09-15 · [Gymnasium #1703](https://github.com/Farama-Foundation/Gymnasium/pull/1703) — Flatten n-d Box actions in DiscretizeAction
-- 2026-09-14 · [crush #3552](https://github.com/charmbracelet/crush/pull/3552) — fix(home): require path boundary when shortening or expanding ~
-- 2026-09-13 · [petgraph #1034](https://github.com/petgraph/petgraph/pull/1034) — fix: Size max flow scratch vectors by index bound
-- 2026-09-12 · [rust-sdk #1156](https://github.com/modelcontextprotocol/rust-sdk/pull/1156) — fix(model): deprecate ServerInfo and ClientInfo aliases
 <!--/recent-prs-->
 
 ## Stack
