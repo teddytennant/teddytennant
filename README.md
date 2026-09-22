@@ -1,6 +1,6 @@
 # Teddy Tennant
 
-16 year old at [NCSSM]. I work on agentic harness engineering, reasoning in latent space, recursive self-improvement, and synthetic data.
+I'm 16 and a student at [NCSSM]. I build coding agents and run them unattended, on my own machine and on H200s, and I write about what they actually do when nobody's watching. Most of that is on [teddytennant.com], and the agent I use every day is [wizard].
 
 ## Upstream
 
@@ -18,18 +18,10 @@ Most recent:
 - 2026-09-15 · [cubecl #1413](https://github.com/tracel-ai/cubecl/pull/1413) — fix(runtime): saturate FlushingPolicyState counters to prevent add-overflow panic (#1359)
 <!--/recent-prs-->
 
-## Stack
-
-Rust, Python, PyTorch, JAX, SGLang, Nix, TypeScript, C++, Lua, Go. NixOS daily driver.
-
-[teddytennant.com] · teddy5tennant@gmail.com
+teddy5tennant@gmail.com
 
 [NCSSM]: https://www.ncssm.edu/
 [wizard]: https://github.com/teddytennant/wizard
-[agentic-harness-engineering]: https://github.com/china-qijizhifeng/agentic-harness-engineering
-[reverie]: https://github.com/teddytennant/reverie
-[candor-bench]: https://github.com/teddytennant/candor-bench
-[spore]: https://github.com/teddytennant/spore
 [prs]: https://github.com/search?q=is%3Apr+author%3Ateddytennant+is%3Amerged+-user%3Ateddytennant&type=pullrequests
 [jax]: https://github.com/jax-ml/jax
 [tinygrad]: https://github.com/tinygrad/tinygrad
