@@ -4,18 +4,18 @@ I'm 16 and a student at [NCSSM]. I build coding agents and run them unattended, 
 
 ## Upstream
 
-152 [merged pull requests][prs] in repos I do not own, including:
+155 [merged pull requests][prs] in repos I do not own, including:
 
 [jax] · [tinygrad] · [Gymnasium] · [ratatui] · [zellij] · [rclone] · [petgraph] · [rand] · [maturin] · [insta]
 
 Most recent:
 
 <!--recent-prs-->
+- 2026-09-23 · [wasm-bindgen #5323](https://github.com/wasm-bindgen/wasm-bindgen/pull/5323) — Fix non\_wasm\_test deadlock with a single test thread
+- 2026-09-23 · [statrs #470](https://github.com/statrs-dev/statrs/pull/470) — Handle p=1 in NegativeBinomial::ln\_pmf like Binomial
+- 2026-09-23 · [statrs #469](https://github.com/statrs-dev/statrs/pull/469) — fix: sample Gumbel via -ln(U), not ln(-U)
 - 2026-09-18 · [jax #40338](https://github.com/jax-ml/jax/pull/40338) — Fix jnp.partition, jnp.argpartition and jnp.top\_k on signed integer minimums
 - 2026-09-17 · [PettingZoo #1462](https://github.com/Farama-Foundation/PettingZoo/pull/1462) — Honor action masks in average\_total\_reward
-- 2026-09-17 · [PettingZoo #1464](https://github.com/Farama-Foundation/PettingZoo/pull/1464) — Stop treating AEC step() as returning an observation
-- 2026-09-17 · [PettingZoo #1463](https://github.com/Farama-Foundation/PettingZoo/pull/1463) — Compare action spaces across agents in api\_test
-- 2026-09-15 · [cubecl #1413](https://github.com/tracel-ai/cubecl/pull/1413) — fix(runtime): saturate FlushingPolicyState counters to prevent add-overflow panic (#1359)
 <!--/recent-prs-->
 
 teddy5tennant@gmail.com
