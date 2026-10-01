@@ -4,18 +4,18 @@ I'm 16 and a student at [NCSSM]. I build coding agents and run them unattended, 
 
 ## Upstream
 
-157 [merged pull requests][prs] in repos I do not own, including:
+159 [merged pull requests][prs] in repos I do not own, including:
 
 [jax] · [tinygrad] · [Gymnasium] · [ratatui] · [zellij] · [rclone] · [petgraph] · [rand] · [maturin] · [insta]
 
 Most recent:
 
 <!--recent-prs-->
+- 2026-09-30 · [imageproc #807](https://github.com/image-rs/imageproc/pull/807) — fix: prevent canny panic on zero thresholds
+- 2026-09-30 · [imageproc #808](https://github.com/image-rs/imageproc/pull/808) — fix: use inverse CDF for histogram matching
 - 2026-09-30 · [tinygrad #18170](https://github.com/tinygrad/tinygrad/pull/18170) — fix gradient of assign through a strided slice
 - 2026-09-26 · [embedded-graphics #824](https://github.com/embedded-graphics/embedded-graphics/pull/824) — Fix integer overflow when calculating thick line joints
 - 2026-09-23 · [wasm-bindgen #5323](https://github.com/wasm-bindgen/wasm-bindgen/pull/5323) — Fix non\_wasm\_test deadlock with a single test thread
-- 2026-09-23 · [statrs #470](https://github.com/statrs-dev/statrs/pull/470) — Handle p=1 in NegativeBinomial::ln\_pmf like Binomial
-- 2026-09-23 · [statrs #469](https://github.com/statrs-dev/statrs/pull/469) — fix: sample Gumbel via -ln(U), not ln(-U)
 <!--/recent-prs-->
 
 teddy5tennant@gmail.com
