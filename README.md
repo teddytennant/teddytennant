@@ -4,7 +4,7 @@ I'm a student at [NCSSM], into AI research and agents. The one I use every day i
 
 ## Upstream
 
-169 [merged pull requests][prs] in repos I do not own, including:
+166 [merged pull requests][prs] in repos I do not own, including:
 
 [jax] · [tinygrad] · [Gymnasium] · [ratatui] · [zellij] · [rclone] · [petgraph] · [rand] · [maturin] · [insta]
 
