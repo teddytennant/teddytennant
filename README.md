@@ -4,18 +4,18 @@ I'm a student at [NCSSM], into AI research and agents. The one I use every day i
 
 ## Upstream
 
-170 [merged pull requests][prs] in repos I do not own, including:
+174 [merged pull requests][prs] in repos I do not own, including:
 
 [jax] · [tinygrad] · [Gymnasium] · [ratatui] · [zellij] · [rclone] · [petgraph] · [rand] · [maturin] · [insta]
 
 Most recent:
 
 <!--recent-prs-->
+- 2026-10-31 · [crossbeam #1292](https://github.com/crossbeam-rs/crossbeam/pull/1292) — utils: Fix ShardedLock::write documentation copied from read
+- 2026-10-31 · [openclaw #137788](https://github.com/openclaw/openclaw/pull/137788) — fix(gateway): drop covered cli-assistant history aggregates
+- 2026-10-31 · [openclaw #138334](https://github.com/openclaw/openclaw/pull/138334) — fix(sessions): keep custom session icon across /reset
+- 2026-10-30 · [agentic-harness-engineering #19](https://github.com/china-qijizhifeng/agentic-harness-engineering/pull/19) — fix: stop evolve.sh --batch aborting after the first config
 - 2026-10-27 · [syntect #702](https://github.com/trishume/syntect/pull/702) — Fix as\_latex\_escaped: correct RGB channel order and backslash escaping
-- 2026-10-25 · [lz4_flex #237](https://github.com/PSeitz/lz4_flex/pull/237) — fix: do not panic on a second try\_finish of an empty frame
-- 2026-10-25 · [tinygrad #19016](https://github.com/tinygrad/tinygrad/pull/19016) — check store hazards on the index after rangeify
-- 2026-10-23 · [tinygrad #18996](https://github.com/tinygrad/tinygrad/pull/18996) — one walk in fix\_store\_hazard \[pr\]
-- 2026-10-16 · [tinygrad #18765](https://github.com/tinygrad/tinygrad/pull/18765) — one kernel for x\[0\] += 1
 <!--/recent-prs-->
 
 teddy5tennant@gmail.com
