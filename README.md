@@ -4,18 +4,18 @@ I'm a student at [NCSSM], into AI research and agents. The one I use every day i
 
 ## Upstream
 
-178 [merged pull requests][prs] in repos I do not own, including:
+179 [merged pull requests][prs] in repos I do not own, including:
 
 [jax] · [tinygrad] · [Gymnasium] · [ratatui] · [zellij] · [rclone] · [petgraph] · [rand] · [maturin] · [insta]
 
 Most recent:
 
 <!--recent-prs-->
+- 2026-11-04 · [tinygrad #19173](https://github.com/tinygrad/tinygrad/pull/19173) — fix torch\_load on strided tensors
 - 2026-11-03 · [tinygrad #19127](https://github.com/tinygrad/tinygrad/pull/19127) — keep the copy and store on multi views
 - 2026-11-03 · [thrml #68](https://github.com/extropic-ai/thrml/pull/68) — validate NumPy leaves in InteractionGroup's shape check
 - 2026-10-31 · [tinygrad #19125](https://github.com/tinygrad/tinygrad/pull/19125) — fix infinite loop in eq lift
 - 2026-10-31 · [tinygrad #19117](https://github.com/tinygrad/tinygrad/pull/19117) — realize\_store\_after\_src stops at AFTER \[pr\]
-- 2026-10-31 · [crossbeam #1292](https://github.com/crossbeam-rs/crossbeam/pull/1292) — utils: Fix ShardedLock::write documentation copied from read
 <!--/recent-prs-->
 
 teddy5tennant@gmail.com
