@@ -1,4 +1,4 @@
-name: Update upstream section
+name: Update profile
 
 on:
   schedule:
@@ -14,19 +14,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Refresh the upstream section and commit
+      - name: Refresh the stats card and commit
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "Teddy Tennant"
           git config user.email "teddytennant@icloud.com"
           for attempt in 1 2 3; do
-            ./scripts/update-upstream.sh
-            if git diff --quiet README.md; then
+            python3 scripts/card.py
+            if git diff --quiet; then
               echo "no change"
               exit 0
             fi
-            git commit -am "Update upstream pull requests"
+            git commit -am "Update profile stats"
             if git push; then
               exit 0
             fi
